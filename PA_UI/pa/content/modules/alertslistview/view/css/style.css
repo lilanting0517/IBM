@@ -1,0 +1,210 @@
+/**    
+ *   module style    
+ *   container name alertslistview_container    
+ */    
+.alertslistview_container{
+    height: 100% !important;
+    width: 100%;
+}    
+
+/* .alertslistview_container .wrapper{
+    position: absolute;
+}
+
+.alertslistview_container .wrapper .scroller{
+    position: absolute;
+} */
+
+.alertslistview_container .pa_popup_frame {
+    margin: 4px 30px;
+    border-top: 1px solid #b3b3b3;
+}
+.alertslistview_container .alertGroup {
+    float: left;
+    display: block;
+    margin: 4px 30px;
+    width: 270px;
+}
+.alertslistview_container .groupDate{
+    margin: 10px 30px 16px 30px;
+    color: #404040;
+    background-color: #F0F0F0;
+    height: 44px;
+    width: 255px;
+    line-height: 44px;
+    padding-left: 15px;
+    
+}
+.alertslistview_container .alertGroup .alertGroup_time {
+    /* overflow: hidden; */
+    float: left;
+    width:33px;
+    text-align: left;
+}
+
+.alertslistview_container .alertGroup .alertGroup_priority {
+    float: left;
+    width: 10px;
+    height: 15px;
+    color: #BF1F1F;
+}
+
+.alertslistview_container .alertGroup .alertGroup_content {
+    width: 237px;
+    float: left;
+    padding-bottom: 12px;
+}
+
+.alertslistview_container .alertGroup_content_title {
+    overflow: hidden;
+    text-overflow: ellipsis; 
+    white-space: nowrap;
+}
+
+.alertslistview_container .alertGroup .alertGroup_menu {
+    float: right;
+}
+
+.alertslistview_container .alertGroup .alertGroup_content .alertGroup_content_detail {
+    /* height: 80px;
+    margin-top: 10px; */
+    color:#404040;
+    padding-left: 8px;
+}
+
+.alertslistview_container .height100 {
+    height: 100%;
+}
+
+.alertslistview_container .second_part{
+    color:gray;
+    font-size:12px;
+}
+
+.alertGroup .alertGroupTable .alertGroup_time{
+    color: #404040;
+}
+.alertslistview_container .noAlertsBackground{
+   border-top: 1px solid #b3b3b3;
+   border-bottom: 1px solid #b3b3b3;
+}
+
+.alertslistview_container .alertsScrollView1 .iScrollVerticalScrollbar{
+    right:20px !important;
+}
+
+.alertslistview_container .search_it{
+    /*background: #f0f0f0;*/
+    width: 270px;
+    margin-left: 15px;
+    padding-bottom: 10px;
+    padding-left:15px;
+    height:40px;
+} 
+
+.alertslistview_container .search_it input{
+    border: 1px solid #d3d3d3;
+    color: #404040;
+    font-family: "Helvetica Neue Roman for IBM";
+    font-size: 13px;
+    height: 37px;
+    width:263px;
+    padding-left: 5px;
+}
+.alertslistview_container .search_priority{
+    padding-left:30px;
+    padding-bottom: 10px;
+    height: 23px;
+}
+/*.alertslistview_container .search_it .search_cursor_default{
+    cursor: default;
+}*/
+.alertslistview_container .alertsLineStyle{
+    border-top: 1px solid #d3d3d3;
+    padding-top: 20px;
+}
+.alertslistview_container .search_it .icon-search-button { 
+    font-size: 30px;
+    color:#00b0da;
+    position: relative;
+    top: -34px;
+    float: right;
+    right: 2px;
+    cursor: pointer;
+}
+.alertslistview_container .alertGroup .alertGroup_content .icon-delete{
+    font-size: 30px;
+    color:#00b0da;
+    position: relative;
+    left: 200px;
+    cursor: pointer;
+    top: -8px;
+    height: 0px;
+}
+.alertslistview_container .search_it .icon-delete{
+    font-size: 30px;
+    color:#00b0da;
+    position: relative;
+    top:-34px;
+    right: -5px;
+    float: right;
+    visibility: hidden;
+    cursor: pointer;
+}
+
+.alertGroup_content .sales_link .icon-go-to-link-small-graphic{
+    font-size: 30px;
+    color:#00b0da;
+    position: relative;
+    float: right;
+    top: -7px;
+    right: 10px;
+    cursor: pointer;
+}
+.alertGroup .alertGroupTable .icon-important-alert-graphic{
+    font-size: 30px;
+    color:#00b0da;
+    position: absolute;
+}
+.alertslistview_container .alertGroup .icon-no-alerts{
+    font-size: 30px;
+    position: absolute;
+    background-position: -4px -10px;
+    color: red;
+}
+.alertslistview_container .pa_popup_frame .icon-alerts_message{
+    font-size: 30px;
+    position: absolute;
+    background-position: -4px -10px;
+    color: #FFBB00;
+}
+.alertslistview_container .pa_popup_frame .icon-sasha-button{
+    font-size: 30px;
+    position: absolute;
+    background-position: -4px -10px;
+    color: #ffff00;
+}
+.alertslistview_container .errorMessage{
+    margin:30px;
+    width: 257px;
+    color:black;
+    height: 50px;
+    padding: 10px;
+    background-color: #F0F0F0;
+}
+.alertslistview_container .errorMessage .errorMessageimg{
+    background: url("../../../../../images/expired-alert.svg") no-repeat;
+    float: left;
+    background-position: 0px 5px;
+    margin-right: 6px;
+    width: 40px;
+    height: 40px;
+}
+.alertslistview_container .errorMessage .errorMessageCon{
+    width: 200px;
+    border-left: 1px solid #b3b3b3;
+    padding-left: 10px;
+    float: left;
+    height: 50px;
+    line-height:50px;
+}

@@ -1,0 +1,217 @@
+{
+    "paresponse": {
+        "ruleconfig": [
+            {
+                "channel": "WIDGET,SAMETIME,SMS,EMAIL,ISDE",
+                "effectiveTimeFrom": "12:00AM",
+                "effectiveTimeTo": "11:59PM",
+                "fields": [
+                    {
+                        "id": 37480,
+                        "junction": null,
+                        "latestTime": null,
+                        "name": "S04",
+                        "operator": "IS_GREATER_OR_EQUAL",
+                        "period": "DAY",
+                        "ruleid": 0,
+                        "value": "0",
+                        "value2": "1"
+                    }
+                ],
+                "id": 27490,
+                "isActive": "true",
+                "isDemo": "false",
+                "isGroup": "false",
+                "priority": "NORMAL",
+                "ruleName": "111",
+                "source": "PA",
+                "template": "STUCK_OPPTY",
+                "templateName": "Stuck opportunity"
+            },
+             {
+                "channel": "EMAIL",
+                "effectiveTimeFrom": "12:00AM",
+                "effectiveTimeTo": "11:59PM",
+                "fields": [
+                    {
+                        "id": 37256,
+                        "junction": null,
+                        "latestTime": null,
+                        "name": null,
+                        "operator": null,
+                        "period": "DAY",
+                        "ruleid": 0,
+                        "value": "1",
+                        "value2": "EVENT,MESSAGE,VIDEO"
+                    }
+                ],
+                "id": 27030,
+                "isActive": "false",
+                "isDemo": "false",
+                "isGroup": "false",
+                "priority": "NORMAL",
+                "ruleName": "Copy of Copy of Copy of 11",
+                "source": "PA",
+                "template": "PAGE_MANAGER_EXP",
+                "templateName": "Expired page manager content"
+            },{
+                "channel": "WIDGET,EMAIL",
+                "effectiveTimeFrom": "12:00AM",
+                "effectiveTimeTo": "11:59PM",
+                "fields": [
+                    {
+                        "id": 37250,
+                        "junction": null,
+                        "latestTime": null,
+                        "name": null,
+                        "operator": "IS_GREATER_OR_EQUAL",
+                        "period": null,
+                        "ruleid": 0,
+                        "value": "0",
+                        "value2": null
+                    }
+                ],
+                "id": 26802,
+                "isActive": "false",
+                "isDemo": "false",
+                "isGroup": "false",
+                "priority": "NORMAL",
+                "ruleName": "Call back due (Preset alert rule 1)",
+                "source": "PA",
+                "template": "CALL_BACK_DUE",
+                "templateName": "Renewal management tool"
+            },{
+                "channel": "WIDGET,EMAIL",
+                "effectiveTimeFrom": "12:00AM",
+                "effectiveTimeTo": "11:59PM",
+                "fields": [
+                    {
+                        "id": 36995,
+                        "junction": null,
+                        "latestTime": null,
+                        "name": null,
+                        "operator": "IS_GREATER_OR_EQUAL",
+                        "period": null,
+                        "ruleid": 0,
+                        "value": "0",
+                        "value2": null
+                    }
+                ],
+                "id": 26801,
+                "isActive": "false",
+                "isDemo": "false",
+                "isGroup": "false",
+                "priority": "NORMAL",
+                "ruleName": "New opportunity (Preset alert rule 2)",
+                "source": "PA",
+                "template": "NEW_OPPORTUNITY",
+                "templateName": "Renewal management tool"
+            },{
+                "channel": "WIDGET,EMAIL",
+                "effectiveTimeFrom": "12:00AM",
+                "effectiveTimeTo": "11:59PM",
+                "fields": [
+                    {
+                        "id": 36994,
+                        "junction": null,
+                        "latestTime": null,
+                        "name": null,
+                        "operator": "IS_GREATER_OR_EQUAL",
+                        "period": null,
+                        "ruleid": 0,
+                        "value": "0",
+                        "value2": null
+                    }
+                ],
+                "id": 26800,
+                "isActive": "false",
+                "isDemo": "false",
+                "isGroup": "false",
+                "priority": "NORMAL",
+                "ruleName": "Opportunity needs updating (Preset alert rule 3)",
+                "source": "PA",
+                "template": "OPPORTUNITY_NEEDS_UPDATING",
+                "templateName": "Renewal management tool"
+            }, {
+                "channel": "WIDGET,EMAIL",
+                "effectiveTimeFrom": "12:00AM",
+                "effectiveTimeTo": "11:59PM",
+                "fields": [
+                    {
+                        "id": 36993,
+                        "junction": null,
+                        "latestTime": null,
+                        "name": null,
+                        "operator": "IS_GREATER_OR_EQUAL",
+                        "period": null,
+                        "ruleid": 0,
+                        "value": "0",
+                        "value2": null
+                    }
+                ],
+                "id": 26799,
+                "isActive": "false",
+                "isDemo": "false",
+                "isGroup": "false",
+                "priority": "NORMAL",
+                "ruleName": "Order booked (Preset alert rule 4)",
+                "source": "PA",
+                "template": "ORDER_BOOKED",
+                "templateName": "Renewal management tool"
+            },{
+                "channel": "WIDGET,ISA",
+                "effectiveTimeFrom": "12:00AM",
+                "effectiveTimeTo": "11:59PM",
+                "fields": [
+                    {
+                        "id": 32485,
+                        "junction": null,
+                        "latestTime": null,
+                        "name": null,
+                        "operator": "INCLUDES",
+                        "period": null,
+                        "ruleid": 0,
+                        "value": "111",
+                        "value2": null
+                    }
+                ],
+                "id": 24481,
+                "isActive": "false",
+                "isDemo": "false",
+                "isGroup": "false",
+                "priority": "NORMAL",
+                "ruleName": "111",
+                "source": "PA",
+                "template": "UNICA_STEPS",
+                "templateName": "Rep page steps"
+            }, {
+                "channel": "WIDGET",
+                "effectiveTimeFrom": "12:00AM",
+                "effectiveTimeTo": "11:59PM",
+                "fields": [
+                    {
+                        "id": 14743,
+                        "junction": null,
+                        "latestTime": null,
+                        "name": null,
+                        "operator": "IS_GREATER_THAN",
+                        "period": "WEEK",
+                        "ruleid": 0,
+                        "value": "10",
+                        "value2": "1"
+                    }
+                ],
+                "id": 9743,
+                "isActive": "false",
+                "isDemo": "false",
+                "isGroup": "false",
+                "priority": "NORMAL",
+                "ruleName": "A customer visited my Rep Page more than 10 times within a week",
+                "source": "PA",
+                "template": "UNICA_VISITS",
+                "templateName": "Rep page visits"
+            }
+        ]
+    },
+    "type": "DATA_RESPONSE"
+}

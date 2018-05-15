@@ -1,0 +1,19 @@
+{
+	"template": "COMPLEX",
+	"templateName": "Linked alerts",
+	"ruleName": "",
+	"id": "0",
+	"priority": "NORMAL",
+	"channel": "",
+	"effectiveTimeFrom": "12:00AM",
+	"effectiveTimeTo": "11:59PM",
+	"isGroup": false,
+	"isActive": true,
+	"fields":[{
+			"ruleid":"",
+			"operator":"TRIGGER",
+			"period":"DAY",
+			"value":"",
+			"junction":"AND"
+		}]
+}

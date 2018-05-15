@@ -1,0 +1,42 @@
+<div class="opptystagechange_container">
+	<div class="oneblock">
+	    <span class="item_title check_title">Alert me when an IBMer opens an opportunity:</span>
+		<div class="oneblock">
+       
+        <div>
+            
+            <form data-dojo-attach-point="contentType">
+                <input name="contentType" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="OPPTY_TEAM" value="OPPTY_TEAM" />&nbsp;where I'm on the opportunity team<br>
+                <input name="contentType" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="CLIENT" value="CLIENT" />&nbsp;for all clients in my territory
+            </form>
+        </div>
+       </div>
+       <div style="border-bottom:1px dashed #808080;width: 281px; margin-top:10px" data-dojo-attach-point="dashedLine"></div>
+		<div class="item_title check_title">Alert me when my opportunities change to:</div>
+		<form data-dojo-attach-point = "opptySelect">
+		    <input name="opptySelectValue" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="S02" value="S02"/>&nbsp;Stage 2:&nbsp;Noticed/Identifying<br>
+		    <input name="opptySelectValue" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="S03" value="S03"/>&nbsp;Stage 3:&nbsp;Identified/Validating<br>
+			<input name="opptySelectValue" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="S04" value="S04"/>&nbsp;Stage 4:&nbsp;Validated/Qualifying<br>
+			<input name="opptySelectValue" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="S05" value="S05"/>&nbsp;Stage 5:&nbsp;Qualified/Gaining Agreement<br>
+			
+			<input name="opptySelectValue" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="S06" value="S06"/>&nbsp;Stage 6:&nbsp;Cond Agreed/Closing<br>
+			<input name="opptySelectValue" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="S07" value="S07"/>&nbsp;Stage 7:&nbsp;Won/Implementing<br>
+			<input name="opptySelectValue" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="S08" value="S08"/>&nbsp;Stage 8:&nbsp;Won and Complete<br>
+			
+			<input name="opptySelectValue" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="S09" value="S09"/>&nbsp;Stage 9:&nbsp;No bid<br>
+			<input name="opptySelectValue" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="S10" value="S10"/>&nbsp;Stage 10:&nbsp;Customer Did Not Pursue <br>
+			<input name="opptySelectValue" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="S11" value="S11"/>&nbsp;Stage 11:&nbsp;Lost to Competition
+			
+		</form>
+	</div>
+	<div style="border-bottom:1px dashed #808080;width: 281px; margin-top:10px" data-dojo-attach-point="dashedLine"></div>
+	<div class="oneblock">
+		<span class="item_title">And if the amount is&nbsp;&nbsp;</span>
+		<div class="item_one_row">
+			<div data-dojo-attach-point="operatorSelect" class="operatorSelect" data-dojo-type="pa/widgets/CustomSelector/CustomSelector" data-dojo-props="data:{defaultItem:{'label': 'more than or exactly','value': 'IS_GREATER_OR_EQUAL'},listItems:[{'label': 'more than or exactly','value': 'IS_GREATER_OR_EQUAL'},{'label': 'less than or exactly','value': 'IS_LESS_OR_EQUAL'}]}">
+			</div>
+			<span class="dollar">&nbsp;&nbsp;$</span>
+			<input data-dojo-attach-point="amountTextBox" constraints="{min:0,max:10000000000}" type="text" data-dojo-type="dijit/form/NumberTextBox" class="inputAmount" value="0" required="true"/>
+		</div>
+	</div>
+</div>

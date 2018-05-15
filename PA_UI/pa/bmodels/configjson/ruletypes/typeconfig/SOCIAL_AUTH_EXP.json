@@ -1,0 +1,17 @@
+{
+	"template": "SOCIAL_AUTH_EXP",
+	"templateName": "Expiring LinkedIn authorization",
+	"ruleName": "",
+	"priority": "NORMAL",
+	"channel": "",
+	"effectiveTimeFrom": "12:00AM",
+	"effectiveTimeTo": "11:59PM",
+	"isGroup": false,
+	"isActive": true,
+	"id": "0",
+	"fields": [{
+		"value": "LinkedIn",
+		"value2": "",
+		"period": "DAY"
+	}]
+}

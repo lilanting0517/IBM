@@ -1,0 +1,11 @@
+{	
+	"id" 	: "module_pa",	
+	"strInfo" : [	
+		{	
+			"id" : "style",	
+			"src" : "./view/css/style.css"	
+		}	
+	],	
+	"imagesInfo" : []	
+		
+}	

@@ -1,0 +1,45 @@
+<div class="stuckoppty_container">
+
+		
+    <div class="oneblock">
+        <span class="item_title">Alert me when one or more of my opportunities does not update in</span>
+        <input data-dojo-attach-point="PeriodTextBox" type="text" class="inputDay"
+                promptMessage="Minimum 1 day and maximum 180 days"
+                onmouseover="dijit.Tooltip.defaultPosition=['above']"
+                constraints="{min:1,max:180}" required="true"
+                dojoType="dijit.form.NumberTextBox"
+                invalidMessage="Minimum 1 day and maximum 180 days" />
+        <span> day(s)</span><span class="icon-information-idle" data-dojo-attach-point="stuckopptyHelp"></span>
+    </div>
+    <div style="border-bottom:1px dashed #808080;width: 281px; margin-top:10px" data-dojo-attach-point="dashedLine"></div>
+    <div class="oneblock">
+        <div>
+       	 <span class="item_title check_title">and for the opportunities:&nbsp;&nbsp;</span>
+            <form data-dojo-attach-point="contentType">
+                <input name="contentType" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="OPPTY_TEAM" value="OPPTY_TEAM" />&nbsp;where I'm on the opportunity team<br>
+                <input name="contentType" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="CLIENT" value="CLIENT" />&nbsp;for all clients in my territory
+            </form>
+        </div>
+       </div>
+    <div style="border-bottom:1px dashed #808080;width: 281px; margin-top:10px" data-dojo-attach-point="dashedLine"></div>
+    <div class="oneblock">
+        <span class="item_title">and if the amount is&nbsp;&nbsp;</span>
+        <div class="item_one_row">
+            <div data-dojo-attach-point="operatorSelect" class="operatorSelect" data-dojo-type="pa/widgets/CustomSelector/CustomSelector" data-dojo-props="data:{defaultItem:{'label': 'more than or exactly','value': 'IS_GREATER_OR_EQUAL'},listItems:[{'label': 'more than or exactly','value': 'IS_GREATER_OR_EQUAL'},{'label': 'less than or exactly','value': 'IS_LESS_OR_EQUAL'}]}">
+            </div>
+            <span class="dollar">&nbsp;&nbsp;$&nbsp;&nbsp;</span>
+            <input data-dojo-attach-point="amountTextBox" constraints="{min:0,max:10000000000}" required="true" type="text" data-dojo-type="dijit/form/NumberTextBox" class="inputAmount" value="0"/>
+        </div>
+    </div>
+    <div style="border-bottom:1px dashed #808080;width: 281px; margin-top:10px" data-dojo-attach-point="dashedLine"></div>
+    <div class="oneblock">
+        <div class="item_title check_title">and the sales stage is one or more of the following:</div>
+        <div>
+            <form data-dojo-attach-point="stageSelect">
+                <input name="stageSelectValue" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="S04" value="S04" />&nbsp;Stage 4:&nbsp;Validated/Qualifying<br>
+                <input name="stageSelectValue" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="S05" value="S05" />&nbsp;Stage 5:&nbsp;Qualified/Gaining Agreement<br>
+                <input name="stageSelectValue" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="S06" value="S06" />&nbsp;Stage 6:&nbsp;Cond Agreed/Closing
+            </form>
+        </div>
+    </div>
+</div>

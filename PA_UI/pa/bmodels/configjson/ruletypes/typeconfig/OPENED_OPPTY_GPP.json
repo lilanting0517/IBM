@@ -1,0 +1,16 @@
+{
+	"template": "OPENED_OPPTY_GPP",
+	"templateName": "Business partner opened opportunity",
+	"ruleName": "",
+	"priority": "NORMAL",
+	"channel": "EMAIL",
+	"effectiveTimeFrom": "12:00AM",
+	"effectiveTimeTo": "11:59PM",
+	"isGroup": false,
+	"isActive": true,
+	"id": "0",
+	"fields": [{
+		"operator": "IS_GREATER_OR_EQUAL",
+		"value": 0
+	}]
+}

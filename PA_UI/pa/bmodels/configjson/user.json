@@ -1,0 +1,13 @@
+{
+	"userId": "",
+	"secretKey": "dhASLDH1232AasdasdA412dasdaDIWAHedAiHSio",
+	"isDemo": false,
+	"cellularProvider": "",
+	"cellNumber": "",
+	"timeZone": "",
+	"effectiveTimeFrom": "",
+	"effectiveTimeTo": "",
+	"channels": "",
+	"currentModule":"module_alertsListView",
+	"noAlert":false
+}

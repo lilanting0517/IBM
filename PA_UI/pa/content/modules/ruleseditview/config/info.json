@@ -1,0 +1,45 @@
+{    
+    "id"     : "module_ruleseditview",    
+    "strInfo" : [    
+        {    
+            "id" : "style",    
+            "src" : "./view/css/style.css"    
+        }    
+    ],    
+    "imagesInfo" : [],
+    "ruleModulePathMap": {
+        "module_rulesList": "pa/content/modules/ruleseditview/ruleModules/ruleslist/rulesListModule",
+        "module_editRule": "pa/content/modules/ruleseditview/ruleModules/editrule/editRuleModule",
+        "module_creatRule":"pa/content/modules/ruleseditview/ruleModules/creatrule/creatRuleModule",
+        "module_copyRule":"pa/content/modules/ruleseditview/ruleModules/copyrule/copyRuleModule"
+    },
+    "widgetsMap": {
+        "STUCK_OPPTY": "pa/content/modules/ruleseditview/widgets/StuckOpptyWidget/StuckOpptyWidget",
+        "OPENED_OPPTY_GPP": "pa/content/modules/ruleseditview/widgets/BusinessPartnerWidget/BusinessPartnerWidget",
+        "Common":"pa/content/modules/ruleseditview/widgets/CommonWidget/CommonWidget",
+        "OPENED_OPPTY": "pa/content/modules/ruleseditview/widgets/OpenedOpptyWidget/OpenedOpptyWidget",
+        "OPPTY_STAGE_CHANGE": "pa/content/modules/ruleseditview/widgets/OpptyStageChangeWidget/OpptyStageChangeWidget",
+        "UNICA_STEPS": "pa/content/modules/ruleseditview/widgets/RepPageStepsWidget/RepPageStepsWidget",
+        "UNICA_VISITS": "pa/content/modules/ruleseditview/widgets/RepPageVisitsWidget/RepPageVisitsWidget",
+        "PAGE_MANAGER_EXP": "pa/content/modules/ruleseditview/widgets/ExpiredPageManagerWidget/ExpiredPageManagerWidget",
+        "CALL_BACK_DUE": "pa/content/modules/ruleseditview/widgets/CallBackDueWidget/CallBackDueWidget",
+        "NEW_OPPORTUNITY": "pa/content/modules/ruleseditview/widgets/NewOpportunityWidget/NewOpportunityWidget",
+        "OPPORTUNITY_NEEDS_UPDATING": "pa/content/modules/ruleseditview/widgets/OpportunityNeedsUpdatingWidget/OpportunityNeedsUpdatingWidget",
+        "ORDER_BOOKED": "pa/content/modules/ruleseditview/widgets/OrderBookedWidget/OrderBookedWidget",
+        "CUSTOMER_EMAIL_NEEDS_TO_BE_UPDATED": "pa/content/modules/ruleseditview/widgets/CustomerEmailWidget/CustomerEmailWidget",
+        "NEW_OPPTY_NOT_SALES_TEAM":"pa/content/modules/ruleseditview/widgets/NewOpptyNotSalesWidget/NewOpptyNotSalesWidget",
+        "COMPLEX":"pa/content/modules/ruleseditview/widgets/LinkedAlertsWidget/LinkedAlertsWidget",
+        "SOCIAL_AUTH_EXP":"pa/content/modules/ruleseditview/widgets/ExpiryAuthorizationSocialWidget/ExpiryAuthorizationSocialWidget",
+        "CLOSE_OUT_CALL": "pa/content/modules/ruleseditview/widgets/CloseOutCallWidget/CloseOutCallWidget",
+        "TASK_LOGGED": "pa/content/modules/ruleseditview/widgets/UpcomingTaskWidget/UpcomingTaskWidget",
+        "CALL_LOGGED": "pa/content/modules/ruleseditview/widgets/UpcomingCallWidget/UpcomingCallWidget",
+        "WARM_TRANSFER_5_DAYS":"pa/content/modules/ruleseditview/widgets/WarmTransfer5DaysWidget/WarmTransfer5DaysWidget",
+        "WARM_TRANSFER_14_DAYS":"pa/content/modules/ruleseditview/widgets/WarmTransfer14DaysWidget/WarmTransfer14DaysWidget",
+        "TOUCHPOINT_REQUIRED_FOR_SAAS_RENEWAL":"pa/content/modules/ruleseditview/widgets/TouchpointRequiredSaaSWidget/TouchpointRequiredSaaSWidget",
+        "ROADMAP_STATUS_UPDATE_REQUIRED":"pa/content/modules/ruleseditview/widgets/RoadmapStatusUpdateRequiredWidget/RoadmapStatusUpdateRequiredWidget",
+        "WARM_TRANSFER_NEEDED":"pa/content/modules/ruleseditview/widgets/WarmTransferNeededWidget/WarmTransferNeededWidget",
+        "OPPTY_DECISION_DATE_CHANGE":"pa/content/modules/ruleseditview/widgets/OpportunityDecisionDateChangeWidget/OpportunityDecisionDateChangeWidget"
+        
+    },
+    "defaultModule": "module_rulesList"
+}    

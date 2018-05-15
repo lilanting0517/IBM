@@ -1,0 +1,18 @@
+{
+	"template": "UNICA_VISITS",
+	"templateName": "Rep page visits",
+	"ruleName": "",
+	"id": "0",
+	"priority": "NORMAL",
+	"channel": "",
+	"effectiveTimeFrom": "12:00AM",
+	"effectiveTimeTo": "11:59PM",
+	"isGroup": false,
+	"isActive": true,
+	"fields": [{
+		"operator": "IS_GREATER_THAN",
+		"period": "DAY",
+		"value": "",
+		"value2": ""
+	}]
+}

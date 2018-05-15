@@ -1,0 +1,16 @@
+{
+	"template": "WARM_TRANSFER_5_DAYS",
+	"templateName": "WARM_TRANSFER_5_DAYS",
+	"ruleName": "",
+	"priority": "NORMAL",
+	"channel": "",
+	"effectiveTimeFrom": "12:00AM",
+	"effectiveTimeTo": "11:59PM",
+	"isGroup": false,
+	"isActive": true,
+	"id": "0",
+	"fields": [{
+		"value":0,
+		"period": "DAY"
+	}]
+}

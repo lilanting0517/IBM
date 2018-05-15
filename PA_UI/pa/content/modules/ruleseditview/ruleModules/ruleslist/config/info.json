@@ -1,0 +1,12 @@
+{	
+	"id" 	: "module_rulesList",	
+	"strInfo" : [	
+		{	
+			"id" : "style",	
+			"src" : "./view/css/style.css"	
+		}	
+	],	
+	
+	"imagesInfo" : []	
+		
+}	

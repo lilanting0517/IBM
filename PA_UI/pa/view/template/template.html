@@ -1,0 +1,23 @@
+<div data-dojo-type="dijit/layout/ContentPane" class="pa_container pa_width">
+    <div data-dojo-type="dijit/layout/BorderContainer" data-dojo-props="gutters:false" class="border_container">    
+        <div class="pa_container_title" data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'top'">
+            <div class="pa_container_title_text_con">
+                <span class="pa_container_title_text_con_text" data-dojo-attach-point="changeModuleAlertsList">My alerts</span>
+                <span class="pa_container_title_text_con_rule_text hidden" data-dojo-attach-point="changeModuleRulesList">Edit my alert rules</span>
+                <span class="pa_container_title_text_con_alert hidden" data-dojo-attach-point="showPopUp"></span>
+                <!--<span class="pa_container_title_text_con_count" data-dojo-attach-point="alertsCount">25</span>-->
+            </div>
+            <div class="pa_container_title_btn_con">
+                <span class="pa_container_clear_all_alerts_btn hidden" data-dojo-attach-point="clearAllAlerts">
+                    <span class="icon-delete"></span>
+                </span>
+                <span class="pa_container_title_btn hidden" data-dojo-attach-point="menu">
+                    <span class="icon-edit-graphic" data-dojo-attach-point="editRuleList"></span>
+                </span>
+            </div>
+        </div>
+        <div data-dojo-type="dijit/layout/ContentPane" data-dojo-props="region:'center'" data-dojo-attach-point="moduleFrameContainer" style="margin-top: -5px">
+        </div>
+    </div>
+    <div data-dojo-attach-point="popupCon"></div>
+</div>

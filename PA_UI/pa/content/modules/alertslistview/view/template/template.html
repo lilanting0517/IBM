@@ -1,0 +1,35 @@
+<div class="alertslistview_container" style="display:flex;flex-direction:column">
+    <div data-dojo-attach-point="error_one" class="hidden">
+        <div class="errorMessage">
+	        <div class="errorMessageimg"></div>
+	        <div class="errorMessageCon">An error occurred.</div>
+        </div>
+    </div>
+    <div class="pa_popup_frame hidden" data-dojo-attach-point="paPopup">
+         <div class="icon-alerts_message" style="float: left; margin-top: 9px;"></div>
+         <div data-dojo-attach-point="paPopupContent"></div>
+    </div>
+    <div class="search_it hidden" data-dojo-attach-point="search_div">
+        <input type="text" placeholder="Search" data-dojo-attach-point="search_it">
+        <div class="icon-search-button" data-dojo-attach-point="search_clear_right"></div>
+        <div class="icon-delete" data-dojo-attach-point="search_clear"></div>
+    </div>
+    <div data-dojo-attach-point="search_priority" class="search_priority hidden">
+        <input class="radioRow" type="checkbox" data-dojo-type="dijit/form/CheckBox" name="choosePriority"  data-dojo-attach-point="choosePriority"/><span class="linkTypeStyle">&nbsp;View only high priority alerts</span>
+    </div>
+    <div data-dojo-type="comlib/ui/IScrollView" data-dojo-attach-point="scrollViewAlerts" data-dojo-props="loadMore: 0.9" class="alertsScrollView1">
+        <div class="alertGroup hidden noAlertsBackground" data-dojo-attach-point="noAlerts" >
+            <div class="icon-no-alerts" style="float: left;margin-top:9px;"></div>
+            <div class="alertGroup_content" style="margin:8px 0 -15px 30px">
+                <div style="color:black;margin: 10px 14px;"><strong>You currently have no alerts</strong></div>
+                <div style="margin: 3px 14px;padding-top: 10px;">
+                    Set up alerts to keep yourself notified about opportunities, events, rep page visits and more.
+                </div>
+                <div data-dojo-attach-point="alertsLink" style="margin: 15px 14px; width:64px" class="sales_link"><a>Get started</a></div>
+            </div>
+        </div>
+        <div data-dojo-attach-point="alertsCon">
+        </div>
+    </div>
+</div>
+

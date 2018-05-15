@@ -1,0 +1,19 @@
+<div class="rmt_container">
+    <div class="oneblock">
+        <div class="item_title">Alert me when:&nbsp;&nbsp;</div>
+        <div>
+            <span class="item_title">Call back due (need to call client)</span>
+            <!--  <span class="icon-information-idle" data-dojo-attach-point="callBackDueHelp"></span>-->
+        </div>
+        <div class="item_title linkTypeStyle">AND</div>
+    </div>
+    <div class="oneblock">
+        <span class="item_title">ACV/ASP Expired amount is&nbsp;&nbsp;</span>
+        <div class="item_one_row">
+            <div data-dojo-attach-point="operatorSelect" class="operatorSelect" data-dojo-type="pa/widgets/CustomSelector/CustomSelector" data-dojo-props="data:{defaultItem:{'label': 'more than or exactly','value': 'IS_GREATER_OR_EQUAL'},listItems:[{'label': 'more than or exactly','value': 'IS_GREATER_OR_EQUAL'},{'label': 'less than or exactly','value': 'IS_LESS_OR_EQUAL'}]}">
+            </div>
+            <span class="dollar">&nbsp;&nbsp;$</span>
+            <input data-dojo-attach-point="amountTextBox" required="true" type="text" data-dojo-type="dijit/form/NumberTextBox" class="inputAmount" value="0"/>
+        </div>
+    </div>
+</div>

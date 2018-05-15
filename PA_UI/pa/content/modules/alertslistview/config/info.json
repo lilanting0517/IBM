@@ -1,0 +1,11 @@
+{	
+	"id" 	: "module_alertsListView",	
+	"strInfo" : [	
+		{	
+			"id" : "style",	
+			"src" : "./view/css/style.css"	
+		}	
+	],	
+	"imagesInfo" : []	
+		
+}	

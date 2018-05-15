@@ -1,0 +1,11 @@
+{	
+	"id" 	: "module_editRule",	
+	"strInfo" : [	
+		{	
+			"id" : "style",	
+			"src" : "./view/css/style.css"	
+		}	
+	],	
+	"imagesInfo" : []	
+		
+}	

@@ -1,0 +1,17 @@
+{
+	"template": "PAGE_MANAGER_EXP",
+	"templateName": "Expiring page content",
+	"ruleName": "",
+	"priority": "NORMAL",
+	"channel": "",
+	"effectiveTimeFrom": "12:00AM",
+	"effectiveTimeTo": "11:59PM",
+	"isGroup": false,
+	"isActive": true,
+	"id": "0",
+	"fields": [{
+		"value": "",
+		"value2": "",
+		"period": "DAY"
+	}]
+}

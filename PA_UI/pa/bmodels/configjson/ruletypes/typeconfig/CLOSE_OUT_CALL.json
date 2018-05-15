@@ -1,0 +1,18 @@
+{
+	"template": "CLOSE_OUT_CALL",
+	"templateName": "Close out call needed for won opportunity",
+	"ruleName": "",
+	"priority": "NORMAL",
+	"channel": "EMAIL",
+	"effectiveTimeFrom": "12:00AM",
+	"effectiveTimeTo": "11:59PM",
+	"isGroup": false,
+	"isActive": true,
+	"id": "0",
+	"fields": [{
+		"operator": "IS_GREATER_OR_EQUAL",
+		"value": 0,
+		"value2":5,
+		"period": "DAY"
+	}]
+}

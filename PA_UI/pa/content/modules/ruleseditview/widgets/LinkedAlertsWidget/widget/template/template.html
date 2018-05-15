@@ -1,0 +1,19 @@
+<div class="condition_container oneblock">
+	<div class="item_one_row item_multiple_row" style="height:130px">
+		<div>
+			<span data-dojo-attach-point="fieldName">If</span>
+			<div data-dojo-attach-point="andOr" class="andOr hidden" data-dojo-type="pa/widgets/CustomSelector/CustomSelector" data-dojo-props="data:{defaultItem:{'label': 'and','value': 'AND'},listItems:[{'label': 'and','value': 'AND'},{'label': 'or','value': 'OR'}]}"></div>
+			<div data-dojo-attach-point="ruleSelect" class="ruleSelect" data-dojo-type="pa/widgets/CustomSelector/CustomSelector"></div><br>
+		</div>
+		<div>
+			<span>was&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;</span>
+			<div data-dojo-attach-point="triggerSelect" class="triggerSelect" data-dojo-type="pa/widgets/CustomSelector/CustomSelector" data-dojo-props="data:{defaultItem:{'label': 'triggered','value': 'TRIGGER'},listItems:[{'label': 'triggered','value': 'TRIGGER'},{'label': 'not triggered','value': 'NOT_TRIGGER'}]}"></div>
+		</div>
+		<div>
+			<span>within</span>
+			<input data-dojo-attach-point="PeriodText" type="text" required="true" value="" dojoType="dijit/form/NumberTextBox" onmouseover="dijit.Tooltip.defaultPosition=['above']" class="PeriodText"  promptMessage="Minimum 2 days"/>
+			<div data-dojo-attach-point="periodSelect" class="periodSelect" data-dojo-type="pa/widgets/CustomSelector/CustomSelector" data-dojo-props="data:{defaultItem:{'label': 'day(s)','value': 'DAY'},listItems:[{'label': 'day(s)','value': 'DAY'},{'label': 'week(s)','value': 'WEEK'},{'label': 'month(s)','value': 'MONTH'}]}"></div>
+			<!-- <span class="help_icon" data-dojo-attach-point="ppsHelp"></span> -->
+		</div>
+	</div>
+</div>

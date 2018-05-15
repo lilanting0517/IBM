@@ -1,0 +1,21 @@
+<div class="rmt_container">
+    <div class="oneblock">
+        <div class="item_title">Alert me when:&nbsp;&nbsp;</div>
+        <form data-dojo-attach-point="alertOptionsType" >
+            <div class="item_one_row radio_with_text"><input class="radioRow" type="radio" name="alertoptions" data-dojo-type = "dijit/form/RadioButton" data-dojo-attach-point="callBackDue" value="CALL_BACK_DUE" checked/><span class="linkTypeStyle">Call back due</span><span class="icon-information-idle" data-dojo-attach-point="callBackDueHelp"></span></div>
+            <div class="item_one_row radio_with_text"><input class="radioRow" type="radio" name="alertoptions" data-dojo-type = "dijit/form/RadioButton" data-dojo-attach-point="newOpportunity" value="NEW_OPPORTUNITY" /><span class="linkTypeStyle">New opportunity</span><span class="icon-information-idle" data-dojo-attach-point="newOpportunityHelp"></span></div>
+            <div class="item_one_row radio_with_text"><input class="radioRow" type="radio" name="alertoptions" data-dojo-type = "dijit/form/RadioButton" data-dojo-attach-point="opportunityNeedsUpdating" value="OPPORTUNITY_NEEDS_UPDATING" /><span class="linkTypeStyle">Opportunity needs updating</span><span class="icon-information-idle" data-dojo-attach-point="opportunityNeedUpdateHelp"></span></div>
+            <div class="item_one_row radio_with_text"><input class="radioRow" type="radio" name="alertoptions" data-dojo-type = "dijit/form/RadioButton" data-dojo-attach-point="orderBooked" value="ORDER_BOOKED" /><span class="linkTypeStyle">Order booked</span><span class="icon-information-idle" data-dojo-attach-point="orderBookedHelp"></span></div>
+            <div class="item_one_row radio_with_text"><input class="radioRow" type="radio" name="alertoptions" data-dojo-type = "dijit/form/RadioButton" data-dojo-attach-point="customerEmailNeedsToBeUpdated" value="CUSTOMER_EMAIL_NEEDS_TO_BE_UPDATED" /><span class="linkTypeStyle">Action required - invalid email </span><span class="icon-information-idle" data-dojo-attach-point="customerEmailNeedsToBeUpdatedHelp"></span></div>
+        </form>
+    </div>
+    <div class="oneblock">
+        <span class="item_title">ACV/ASP Expired amount is&nbsp;&nbsp;</span>
+        <div class="item_one_row">
+            <div data-dojo-attach-point="operatorSelect" class="operatorSelect" data-dojo-type="pa/widgets/CustomSelector/CustomSelector" data-dojo-props="data:{defaultItem:{'label': 'more than or exactly','value': 'IS_GREATER_OR_EQUAL'},listItems:[{'label': 'more than or exactly','value': 'IS_GREATER_OR_EQUAL'},{'label': 'less than or exactly','value': 'IS_LESS_OR_EQUAL'}]}">
+            </div>
+            <span class="dollar">&nbsp;&nbsp;$</span>
+            <input data-dojo-attach-point="amountTextBox" required="true" type="text" data-dojo-type="dijit/form/NumberTextBox" class="inputAmount" value="0"/>
+        </div>
+    </div>
+</div>

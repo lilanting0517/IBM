@@ -1,0 +1,25 @@
+<div class="creatrule_container">	
+    <div class="new_rule_title pa_font_blue">&nbsp;Add a new rule</div>
+    <div class="container" data-dojo-attach-point="newRuleCon">
+	    <div class="rule_type_select">
+	        <div class="rule_type_select_text">
+	            <!--span class="line_title">Type:</span-->
+	        </div>
+	        <div class="rule_type_select_list">
+	            <div data-dojo-attach-point="ruleTypeSelect" class="ruleTypeSelect" data-dojo-type="pa/widgets/CustomSelector/CustomSelector"></div>
+	        </div>
+	    </div>
+	    <div class="rule_type_widgetContainer">
+	        <div class="rule_name_widgetContainer" data-dojo-attach-point="ruleNameCon"></div>
+	        <div class="rule_type_widgetContainer_first" data-dojo-attach-point="ruleTypeConFirst"></div>
+	        <div class="rule_type_widgetContainer_second" data-dojo-attach-point="ruleTypeConSecond"></div>
+	        <div data-dojo-attach-point="errorMessage" class="hidden color_red errorMessage">Required</div>
+	    </div>
+	    <div class="rule_type_btnContainer">
+	        <button data-dojo-attach-point='resetNewRule' class="cancel_button">CANCEL</button>
+	        <button data-dojo-attach-point='saveNewRule'>SAVE</button>
+	        
+	    </div>
+	</div>
+</div>	
+	

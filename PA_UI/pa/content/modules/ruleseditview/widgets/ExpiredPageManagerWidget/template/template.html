@@ -1,0 +1,24 @@
+<div class="expiredpagemanager_container">
+	<div class="oneblock">
+		<span class="item_title">Notify me of page content expiring in</span>
+		<input data-dojo-attach-point="PeriodTextBox" type="text" class="inputDay"
+				promptMessage="Maximum 30 days"
+				onmouseover="dijit.Tooltip.defaultPosition=['above']"
+				constraints="{min:0,max:30}"
+				data-dojo-type="dijit/form/NumberTextBox"
+				invalidMessage="Maximum 30 days" 
+				placeholder="" required="true"/>
+		<span> day(s)</span>
+	</div>
+	<div style="border-bottom:1px dashed #808080;width: 281px; margin-top:10px" data-dojo-attach-point="dashedLine"></div>
+	<div class="oneblock">
+		<span class="item_title check_title">Content type is:</span>
+		<form data-dojo-attach-point="contentType">
+			<input name="contentType" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="EVENT" value="EVENT" />&nbsp;Event<br>
+			<input name="contentType" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="LINKED_LIST" value="LINKED_LIST" />&nbsp;Linked list<br>
+			<input name="contentType" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="MESSAGE" value="MESSAGE" />&nbsp;Message<br>
+			<input name="contentType" type="checkbox" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="VIDEO" value="VIDEO" />&nbsp;Video<br>
+			
+		</form>
+	</div>
+</div>

@@ -1,0 +1,18 @@
+{	
+	"id" 	: "module_content",	
+	"strInfo" : [	
+		{	
+			"id" : "style",	
+			"src" : "./view/css/style.css"	
+		}	
+	],	
+	"imagesInfo" : [],
+	"modulePathMap": {
+		"module_alertsListView": "pa/content/modules/alertslistview/alertsListViewModule",
+		"module_Personalpreferences": "pa/content/modules/personalpreferences/PersonalpreferencesModule",
+		"module_ruleseditview":"pa/content/modules/ruleseditview/ruleseditviewModule",
+		"module_clearallalerts":"pa/content/modules/clearallalerts/clearallalertsModule"
+	},
+	"defaultModule": "module_alertsListView"
+		
+}	

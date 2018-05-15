@@ -1,0 +1,9 @@
+<div class="condition_container oneblock">
+	<div style="height:5px"></div>
+	<span data-dojo-attach-point="fieldName" class="item_title">Alert me when a visitor's path</span>
+	<div class="item_one_row alertMeHelpContainer">
+		<div data-dojo-attach-point="andOr" class="andOr hidden" data-dojo-type="pa/widgets/CustomSelector/CustomSelector" data-dojo-props="data:{defaultItem:{'label': 'and','value': 'AND'},listItems:[{'label': 'and','value': 'AND'},{'label': 'or','value': 'OR'}]}"></div>
+		<div data-dojo-attach-point="operatorForRep" class="operatorInclude changeWidth" data-dojo-type="pa/widgets/CustomSelector/CustomSelector" data-dojo-props="data:{defaultItem:{'label': 'includes','value': 'INCLUDES'},listItems:[{'label': 'includes','value': 'INCLUDES'},{'label': 'does not include','value': 'DOES_NOT_INCLUDE'}]}"></div>
+		<input data-dojo-attach-point="operatorValue" type="text" required="true" value="" dojoType="dijit/form/TextBox" onmouseover="dijit.Tooltip.defaultPosition=['above']" class="operatorValue changeTop"/>
+	</div>
+</div>

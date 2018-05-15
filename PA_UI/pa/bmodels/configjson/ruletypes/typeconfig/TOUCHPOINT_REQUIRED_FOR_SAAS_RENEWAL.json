@@ -1,0 +1,17 @@
+{
+	"template": "TOUCHPOINT_REQUIRED_FOR_SAAS_RENEWAL",
+	"templateName": "Touchpoint required for SaaS renewal",
+	"ruleName": "",
+	"priority": "NORMAL",
+	"channel": "",
+	"effectiveTimeFrom": "12:00AM",
+	"effectiveTimeTo": "11:59PM",
+	"isGroup": false,
+	"isActive": true,
+	"id": "0",
+	"fields": [{
+		"value": "",
+		"value2": "",
+		"period": "DAY"
+	}]
+}

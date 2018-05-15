@@ -1,0 +1,16 @@
+{
+	"template": "WARM_TRANSFER_NEEDED",
+	"templateName": "Warm transfer needed",
+	"ruleName": "",
+	"id": "0",
+	"priority": "NORMAL",
+	"channel": "",
+	"effectiveTimeFrom": "12:00AM",
+	"effectiveTimeTo": "11:59PM",
+	"isGroup": false,
+	"isActive": true,
+	"fields": [{
+		"value": "",
+		"value2": ""
+	}]
+}

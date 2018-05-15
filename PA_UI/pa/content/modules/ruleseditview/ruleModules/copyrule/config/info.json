@@ -1,0 +1,11 @@
+{	
+	"id" 	: "module_copyRule",	
+	"strInfo" : [	
+		{	
+			"id" : "style",	
+			"src" : "./view/css/style.css"	
+		}	
+	],	
+	"imagesInfo" : []	
+		
+}	

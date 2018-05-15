@@ -1,0 +1,869 @@
+/** 
+ *   module style   
+ *   container name ruleslist_container 
+ */ 
+.ruleseditview_container {
+    height: 100% !important;
+    width: 100%;
+    
+    font-size: 13px;
+}
+
+.ruleseditview_container .rule_type_select_text {
+    float: left;
+}
+
+.ruleseditview_container .wrapper {
+    position: absolute;
+    width: 100%;
+}
+
+.ruleseditview_container .scroller {
+    position: absolute;
+    width: 100%;
+}
+
+.ruleseditview_container .hidden {
+    display: none;
+}
+.ruleseditview_container .cursor{
+    cursor: default !important;
+}
+.ruleseditview_container .visibility {
+    visibility: hidden;
+}
+.stuckoppty_container .oneblock{
+    padding:5px 0px;
+}
+.stuckoppty_container .inputDay{
+    width:40px !important;
+}
+.stuckoppty_container .operatorSelect{
+    width:140px;
+}
+.stuckoppty_container .dollar{
+    font-size:13px;
+    padding: 3px 5px 0px 0px;
+    margin-left:-5px;
+    margin-right:-3px !important;
+}
+.ruleseditview_container .inputAmount, .ruleseditview_container .inputAmount .dijitInputField{
+    width:90px !important;
+}
+
+.opptystagechange_container .oneblock{
+    padding:5px 0px;
+}
+.opptystagechange_container .operatorSelect{
+    width:140px;
+}
+.opptystagechange_container .dollar{
+    font-size:13px;
+    padding: 3px 5px 0px 0px;
+    margin-left:-5px;
+    margin-right:-3px !important;
+}
+.opportunitydecisiondatechange_container .oneblock{
+   padding:5px 0px;
+}
+.opportunitydecisiondatechange_container .operatorSelect{
+    width:140px;
+}
+.opportunitydecisiondatechange_container .dollar{
+    font-size:13px;
+    padding: 3px 5px 0px 0px;
+    margin-left:-5px;
+    margin-right:-3px !important;
+}
+
+.openedoppty_container .oneblock{
+    padding:5px 0px;
+}
+.openedoppty_container .operatorSelect{
+    width:140px;
+}
+.openedoppty_container .dollar{
+    font-size:13px;
+    padding: 3px 5px 0px 0px;
+    margin-left:-5px;
+    margin-right:-3px !important;
+}
+
+.WarmTransferNeeded_container .oneblock{
+    padding:5px 0px;
+}
+.WarmTransferNeeded_container .operatorSelect{
+    width:140px;
+}
+.WarmTransferNeeded_container .dollar{
+    font-size:13px;
+    padding: 3px 5px 0px 0px;
+    margin-left:-5px;
+    margin-right:-3px !important;
+}
+
+.RoadmapStatusUpdateRequired_container .oneblock{
+    padding:5px 0px;
+}
+.RoadmapStatusUpdateRequired_container .operatorSelect{
+    width:140px;
+}
+.RoadmapStatusUpdateRequired_container .dollar{
+    font-size:13px;
+    padding: 3px 5px 0px 0px;
+    margin-left:-5px;
+    margin-right:-3px !important;
+}
+
+/*customer part*/
+.openedoppty_container .customerStyle{
+    float:left;
+    height:100px;
+}
+.openedoppty_container .upperCase{
+    width:157px;
+    margin-bottom:5px;
+}
+.openedoppty_container .upperCase .dijitInputContainer .dijitInputInner
+{
+    text-transform: uppercase;
+}
+.openedoppty_container .multiSelectStyle{
+    height:60px;
+    width:160px;
+    margin-bottom:5px;
+}
+.openedoppty_container .enterClentText{
+    width:157px;
+}
+/*end*/
+
+.businesspartner_container .oneblock{
+    padding:5px 0px;
+}
+.businesspartner_container .operatorSelect{
+    width:140px;
+}
+.businesspartner_container .dollar{
+    font-size:13px;
+    padding: 3px 5px 0px 0px;
+    margin-left:-5px;
+    margin-right:-3px !important;
+}
+
+.expiredpagemanager_container .oneblock{
+    padding:5px 0px;
+}
+.expiredpagemanager_container .inputDay{
+    width:40px !important;
+}
+
+.expiryauthorizationsocial_container .oneblock{
+    padding:5px 0px;
+}
+.expiryauthorizationsocial_container .inputDay{
+    width:40px !important;
+}
+
+.expirysociallinks_container .oneblock{
+    padding:5px 0px;
+}
+.expirysociallinks_container .inputDay{
+    width:40px;
+}
+
+.rmt_container .oneblock{
+    padding:5px 0px;
+}
+.rmt_container .operatorSelect{
+    width:140px;
+}
+.rmt_container .dollar{
+    font-size:13px;
+    padding: 3px 5px 0px 0px;
+    margin-left:-5px;
+    margin-right:-3px !important;
+}
+
+.rmt_container .linkTypeStyle{
+    margin-left:10px; 
+}
+
+.common_container .oneblock{
+    padding:5px 0px;
+}
+.common_container .priority{
+    width:70px;
+}
+.common_container .ruleName{
+    width:218px;
+    border: none;
+}
+
+.reppagesteps_container .oneblock{
+    padding:5px 0px;
+    
+}
+.reppagesteps_container .operatorInclude{
+    width:100px;
+}
+.reppagesteps_container .operatorValue{
+    width:140px;
+}
+.reppagesteps_container .anotherCondition{
+    text-decoration: none; 
+    /* margin-left: 85px; */
+    color:#00b0da;
+    margin-right: 10px;
+    white-space:nowrap;
+}
+.reppagesteps_container .andOr{
+    /* margin-left:33px; */
+    margin-bottom: 5px;
+    margin-top: 5px;
+    width: 71px !important;
+}
+
+.andOr ul{
+    width: 70px !important;
+}
+.reppagesteps_container .condition_container{
+    padding:0px 0px;
+}
+.reppagesteps_container .condition_container .dijitTextBox,
+.reppagesteps_container .condition_container .dijitTextBox .dijitInputContainer{
+    width: 280px!important;
+}
+.item_one_row .changeTop, 
+.item_one_row .changeWidth{
+    margin-top: 5px;
+}
+
+.reppagevisits_container .custom_selector,
+.reppagevisits_container .custom_selector ul,
+.reppagevisits_container .dijitNumberTextBox,
+.reppagevisits_container .dijitNumberTextBox .dijitInputContainer{
+    width: 135px !important;
+}
+ 
+.reppagesteps_container .condition_container .operatorInclude,
+.reppagesteps_container .condition_container .operatorInclude ul{
+    width: 142px !important;
+}
+
+.reppagevisits_container .oneblock{
+    padding:5px 0px 0px 0px;
+    height:130px;
+}
+
+.reppagevisits_container .showDaysPrompt{
+    margin-left: 55px;
+    margin-top: -10px;
+    color: #8cc63f;
+}
+/*customer part*/
+.reppagevisits_container .customerStyle{
+    float:left;
+    height:100px;
+}
+.reppagevisits_container .upperCase{
+    width:157px;
+    margin-bottom:5px;
+}
+.reppagevisits_container .upperCase .dijitInputContainer .dijitInputInner
+{
+    text-transform: uppercase;
+}
+.reppagevisits_container .multiSelectStyle{
+    height:60px;
+    width:160px;
+    margin-bottom:5px;
+}
+.reppagevisits_container .enterClentText{
+    width:157px;
+}
+/*end*/
+.reppagevisits_container .operatorExactly{
+    width:100px;
+}
+.reppagevisits_container .visitsTimes{
+    width:30px;
+}
+.reppagevisits_container .PeriodText{
+    width:30px;
+}
+.reppagevisits_container .periodSelect{
+    width:78px;
+}
+
+.newopptynotsales_container .oneblock{
+    padding:10px 0px;
+}
+
+/*-- --*/
+.ruleseditview_container .dijitContentPane{
+    overflow: visible;
+}
+
+.editrule_container.dijitContentPane .rule_name{
+    margin-left: 8px;
+}
+.editrule_container.dijitContentPane .rule_function .rule_action.icon-delete{
+    right: 6px;
+}
+.ruleseditview_container .container{
+    margin: 3px 14px;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 15px;
+    margin-top: 0;
+}
+/*.ruleseditview_container .container .rule_type_select{
+    postion: relative;
+}
+.ruleseditview_container .container .rule_type_select .rule_type_select_list{
+    position: absolute;
+    top: -25px;
+    left: 10px;
+}*/
+.ruleseditview_container .container .rule_type_select, 
+.ruleseditview_container .rule_type_widgetContainer_first, 
+.ruleseditview_container .container .rule_type_btnContainer{
+    padding: 3px 0 12px 0;
+}
+.ruleseditview_container .rule_type_widgetContainer_second{
+	padding:3px 0;
+}
+.ruleseditview_container .edit_rule_container{
+    overflow-x: hidden;
+}
+.ruleseditview_container .edit_rule_container .rule_name, .ruleseditview_container .edit_rule_container .content_list .item_header .rule_name {
+    width: 53%;
+    box-sizing: border-box;
+    padding-right: 3px;
+}
+.ruleseditview_container .edit_rule_container .rule_type{
+    width: 32%;
+}
+.ruleseditview_container .edit_rule_container .rule_action, 
+.ruleseditview_container .edit_rule_container .rule_action-special {
+    width: 15%;
+}
+
+.ruleseditview_container .edit_rule_container .content_list .item_header .rule_action,
+.ruleseditview_container .new_rule_title, 
+.rule_type_btnContainer button{
+    cursor: pointer;
+}
+.ruleseditview_container .edit_rule_container .content_list .item_header .rule_desc .rule_name {
+    width: 100%;
+    table-layout: fixed;
+    word-wrap: break-word;
+    padding-left:10px;
+    color:#404040;
+}
+.ruleseditview_container .edit_rule_container .content_list .item_header .rule_desc .rule_type {
+    width: 100%;
+    color:#404040;
+}
+
+.ruleseditview_container .edit_rule_container .content_list .item_header{
+    margin: 0px 29px;
+    box-sizing: border-box;
+}
+.ruleseditview_container .copyrule_container .item_content,
+.ruleseditview_container .editrule_container .item_content{
+    margin: 3px 14px;
+    box-sizing: border-box;
+    position: relative;
+    padding-top: 10px;
+    padding-left: 15px;
+}
+.ruleseditview_container .edit_rule_container .content_list .item_content_special{
+    top: -3px;
+    padding-bottom: 10px;
+}
+.icon_group{
+    position: absolute;
+    top: -9px;
+    left: 0px;
+    width: 100%;
+    height: 22px;
+    background-color: #F0F0F0;
+}
+.ruleseditview_container .edit_rule_container .content_list > div{
+    width: 100%;
+}
+.ruleseditview_container .edit_rule_container .content_list > div, 
+.ruleseditview_container .edit_rule_container .content_list .item_header .rule_desc, 
+.ruleseditview_container .edit_rule_container .content_list .item_header .rule_action{
+    float: left;
+}
+.ruleseditview_container .edit_rule_container .content_list .item_header .rule_desc{
+    display: table;
+	height: 100%;
+	width: 100%;
+	padding: 15px 0px;
+	border-bottom: 1px solid #d3d3d3;
+    /* margin: 3px 14px; 
+    transform: translateX(-50%) translateY(-50%);
+    position: relative;
+    top: 50%;
+    left: 50%;*/
+}
+.ruleseditview_container .item_header .rule_desc .rule_left{
+    width: 60%;
+    float: left;
+}
+.rule_type_btnContainer{
+    /* padding: 15px 0 !important; */
+}
+.rule_type_btnContainer>:first-child{
+    margin-right: 6.9px;
+}
+.rule_type_btnContainer .cancel_button{
+    border: 1px solid #00b0da;
+    background: none;
+    color: #00b0da;
+}
+.rule_type_btnContainer button{
+    height: 44px;
+    width: 135px;
+    background-color: #00B2D9;
+    border: none;
+    color: #fff;
+    font-family:Helvetica Neue Medium for IBM;
+}
+
+.rule_type_btnContainer button:hover{
+    background-color: #0089BB;
+    color: #fff;
+}
+.ruleseditview_container .dijitInputContainer{
+    border: 1px solid #d3d3d3;
+}
+.ruleseditview_container input[type="text"]{
+    height: 36px;
+    background-color: #fff !important;
+    color:#404040;
+    padding-left:12px !important;
+}
+.ruleseditview_container select{
+    height: 30px;
+    border: 1px solid #ccc;
+    background-color: #fff;
+}
+.ruleseditview_container .line_title{
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    font-size: 13px;
+    font-weight: bold;
+}
+.ruleseditview_container .half_black{
+    color: #00B0DA;
+}
+.ruleseditview_container .color_red{
+    color: #F04E37;
+}
+.ruleseditview_container .pa_required_special{
+    float: right !important;
+    margin-right: 0px !important;
+}
+
+ul.RoleEditMenuList li{
+    height: 25px;
+    margin: 5px;
+    line-height: 25px;
+}
+
+.ruleseditview_container .rule_type_select_list .customSelector{
+    width: 280px;
+    float: left;
+}
+.ruleseditview_container .customSelector cite{
+    color: #404040;
+    font-size: 13px;
+    height: 36px;
+    padding-left: 12px;
+    width: 280px;
+    border: none;
+    line-height: 32px;
+    display: block;
+    cursor: pointer;
+}
+.ruleseditview_container .customSelector ul{
+    padding: 5px !important;
+    background: rgba(255,255,255,1);
+    z-index: 20000;
+    /* max-height: 220px; */
+    overflow-y: scroll;
+    position: absolute;
+    border: 1px solid #d3d3d3;
+    box-sizing: border-box;
+    margin-left: -1px;
+    overflow: auto;
+}
+.ruleseditview_container .rule_type_select_list .customSelector ul{
+    width: 280px;
+}
+.ruleseditview_container .customSelector ul li{
+    padding: 4px 8px !important;
+    font-size: 13px;
+    height: 24px;
+    line-height: 24px;
+    list-style: none;
+    background: none !important;
+    cursor: pointer;
+}
+.ruleseditview_container .customSelector ul li:hover{
+    background-color: lightgray !important;    
+}
+.ruleseditview_container .customSelector ul li p{
+    line-height: 12px;
+    vertical-align: middle;
+    display: inline-block;
+}
+.ruleseditview_container .customSelector, .ruleseditview_container .customSelector ul, .ruleseditview_container .edit_rule_container .customSelector, .ruleseditview_container .edit_rule_container .customSelector ul{
+    width: 165px;
+}
+.ruleseditview_container .edit_rule_container .dijitTextBox, .ruleseditview_container .dijitTextBox{
+    border: none;
+    width: 165px;
+}
+.oneblock .item_one_row{
+    margin-bottom: 5px;
+    height: 30px;
+    clear: both;
+}
+.oneblock .item_multiple_row{
+    height: 70px;
+    clear: both;
+    margin-bottom: 5px;
+}
+.oneblock .item_title{
+    line-height: 30px;
+}
+.oneblock .item_one_row span, .oneblock .item_one_row div, .oneblock .item_multiple_row span, .oneblock .item_multiple_row div{
+    float: left;
+    margin-right: 5px;
+    line-height: 30px;
+    margin-bottom: 0;
+}
+.oneblock .item_multiple_row span, .oneblock .item_multiple_row div{
+    margin-bottom: 5px;
+}
+.item_multiple_row .periodSelect, .item_multiple_row .periodSelect ul, .item_multiple_row .s_textBox, .item_multiple_row .s_textBox .dijitInputContainer{
+    width: 95px !important;
+}
+.reppagevisits_container .periodSelect, .reppagevisits_container .periodSelect ul, .linkedalerts_container .periodSelect, .linkedalerts_container .periodSelect ul{
+    width: 99px !important;
+}
+.oneblock .item_multiple_row .dijitNumberTextBox, .oneblock .item_multiple_row .dijitNumberTextBox .dijitInputContainer{
+    width: 81px !important;
+}
+.reppagevisits_container .dijitNumberTextBox .dijitInputContainer{
+    margin-bottom: 0;
+}
+.oneblock .item_one_row span{
+    margin-right: 5px;
+}
+.oneblock .item_one_row .ruleName .dijitInputField{
+    width: 278px;
+    font-style: normal;
+}
+.inputAmount, .inputAmount .dijitInputField, .inputDay, .inputDay .dijitInputField{
+    width: 40px;
+}
+.ruleseditview_container .dijitInputField .dijitPlaceHolder{
+    line-height: 36px;
+    padding-left: 12px;
+}
+.text-right-align{
+    text-align: right;
+    margin-right: 5px;
+}
+.ruleseditview_container .dijitNumberTextBox{
+    position: relative;
+}
+.ruleseditview_container .dijitNumberTextBox .dijitValidationContainer{
+    position: absolute;
+    right: -7px;
+    top: 9px;
+    z-index: 2000;
+}
+.ruleseditview_container .dijitNumberTextBox .dijitValidationContainer input{
+    background-color: transparent !important;
+}
+
+.oneblock .item_one_row.radio_with_text .linkTypeStyle{
+    paddint-top: 2px;
+}
+
+.alertMeHelpContainer .icon-information-idle{
+    background-position: -6px -460px;
+    width: 27px;
+}
+.ruleseditview_container .margin_right_45{
+    margin-right: 45px !important;
+}
+
+.rule_type_select_list .customSelector{
+margin-right: 0px !important;
+}
+.linkedalerts_container .PeriodText{
+    width:140px;
+}
+.linkedalerts_container .anotherCondition{
+    text-decoration: none; 
+    margin-left: 85px;
+    color:#00b0da;
+    margin-right: 10px;
+}
+.linkedalerts_container .andOr{
+    /* margin-left:33px; 
+    margin-top: 5px;*/
+    margin-bottom: 5px;
+    width: 71px !important;
+}
+
+.linkedalerts_container .condition_container{
+    padding:0px 0px;
+}
+.linkedalerts_container .condition_container .dijitTextBox,
+.linkedalerts_container .condition_container .dijitTextBox .dijitInputContainer{
+    width: 50px!important;
+}
+.linkedalerts_container .periodSelect{
+    width:78px;
+}
+.linkedalerts_container .ruleSelect{
+    width:220px;
+}
+.linkedalerts_container .dijitNumberTextBox .dijitInputContainer {
+    margin-bottom: 0;
+}
+.ruleseditview_container .item_multiple_row .triggerSelect, .item_multiple_row .triggerSelect ul, .item_multiple_row .s_textBox, .item_multiple_row .s_textBox .dijitInputContainer{
+    width: 151px !important;
+}
+.ruleseditview_container .triggerSelect cite {
+    color: #404040;
+    font-size: 13px;
+    height: 32px;
+    padding-left: 12px;
+    width: 214px;
+    border: none;
+    line-height: 32px;
+    display: block;
+    cursor: pointer;
+}
+.ruleseditview_container .item_content_special .paddingTop10{
+    padding-top: 10px;
+}
+.ruleseditview_container .linkedalerts_container .rule_type_select_list .ruleSelect ul{
+    width: 220px;
+}
+.ruleseditview_container .item_multiple_row .ruleSelect,
+.item_multiple_row .ruleSelect ul, 
+.item_multiple_row .s_textBox,
+.item_multiple_row .s_textBox .dijitInputContainer{
+    width: 210px !important;
+}
+.linkedalerts_container .item_multiple_row .ruleSelect,
+.linkedalerts_container .item_multiple_row .ruleSelect ul{
+    width: 269px !important;
+}
+.linkedalerts_container .oneblock .item_multiple_row .ruleSelect {
+    margin-right: -5px;
+}
+.ruleseditview_container .ruleSelect cite {
+    color: #404040;
+    font-size: 13px;
+    height: 36px;
+    padding-left: 12px;
+    width: 175px;
+    border: none;
+    line-height: 32px;
+    display: block;
+    cursor: pointer;
+}
+.ruleseditview_container .rule_type_select_list .icon-information-idle,
+.common_container .item_one_row .icon-information-idle, 
+.stuckoppty_container .icon-information-idle,
+.rmt_container .icon-information-idle,
+.condition_container .icon-information-idle,
+.reppagevisits_container .icon-information-idle{
+    font-size: 30px;
+    color:#00b0da;
+    cursor: pointer;
+    position: relative;
+    top: 4px;
+}
+.rmt_container .icon-information-idle{
+	top: 9px;
+}
+.stuckoppty_container .icon-information-idle,
+.condition_container .icon-information-idle{
+    top: 9px;
+}
+.ruleseditview_container .new_rule_title{
+    height: 50px;
+    width: 280px;
+    box-sizing: border-box;
+    padding-top: 17px;
+    padding-left: 10px;
+    background-color: #F0F0F0;
+    margin: 3px 29px;
+}
+.ruleseditview_container .icon-plus-button{
+    font-size: 30px;
+    color:#00b0da;
+    position: relative;
+    float: right;
+    top: -8px;
+    right: 4px;
+}
+.ruleseditview_container .edit_rule_container .content_list .item_content .icon_group .icon-pause-idle,
+.ruleseditview_container .edit_rule_container .content_list .item_content .icon_group .icon-resume-idle,
+.ruleseditview_container .edit_rule_container .content_list .item_content .icon_group .icon-copy-idle,
+.ruleseditview_container .edit_rule_container .content_list .item_content .icon_group .icon-group-alerts-idle,
+.ruleseditview_container .edit_rule_container .content_list .item_content .icon_group .icon-dismiss-idle{
+    font-size: 30px;
+    color:#00b0da;
+    cursor: pointer;
+    position: relative;
+    float: left;
+    left: 8px;
+    margin-right: 3px;
+}
+.ruleseditview_container .rule_desc .icon-delete,
+.ruleseditview_container .rule_desc .icon-edit-graphic,
+.ruleseditview_container .rule_desc .icon-copy-idle{
+    font-size: 30px;
+    color:#00b0da;
+    cursor: pointer;
+    position: relative;
+    float:left;
+}
+.ruleseditview_container .rule_desc .icon-inactive_alert{
+	font-size: 30px;
+	color:#E7E6E4;
+    cursor: pointer;
+    position: relative;
+    float:left;
+    left: -6px;
+}
+.ruleseditview_container .rule_desc .icon-active_alert{
+	color:#8cc63f;
+}
+.ruleseditview_container .edit_rule_container .content_list .rule_function{
+    float:none;
+}
+.ruleseditview_container .edit_rule_container .content_list .rule_desc .icon-edit-graphic{
+    left: 35px;
+}
+.ruleseditview_container .edit_rule_container .content_list .rule_desc .icon-delete{
+    left: 12px;
+}
+.ruleseditview_container .grey_color{
+    color: #939598 !important;
+}
+.ruleseditview_container .rule_type_select .icon-expand-graphic{
+    right: 6px;
+}
+.ruleseditview_container .edit_rule_container .content_list .item_header .icon-expand-graphic{
+    font-size: 30px;
+    color:#00b0da;
+    right: 11px;
+    top: 10px;
+}
+.ruleseditview_container .edit_rule_container .content_list .item_header .icon-hide-graphic{
+    font-size: 30px;
+    color:#00b0da;
+    position: relative;
+    right: 4px;
+    top: 10px;
+}
+.ruleseditview_container .rmt_container .radioRow .dijitCheckBoxInput{
+    height: 32px;
+}
+.oneblock .item_one_row .dijitRadio{
+    height: 32px;
+}
+.closeoutcall_container .oneblock{
+    padding:5px 0px;
+}
+.closeoutcall_container .inputDay{
+    width:40px !important;
+}
+.closeoutcall_container .dollar{
+    font-size:13px;
+    padding: 3px 5px 0px 0px;
+    margin-left:-5px;
+    margin-right:-3px !important;
+}
+.ruleseditview_container .channels_block .channels{
+    position: relative;
+    left: 122px;
+    top: -15px;
+}
+.ruleseditview_container .editrule_container .item_header{
+	height: auto;
+    margin: 10px 0px;
+}
+.ruleseditview_container .copyrule_container .item_header .rule_desc .rule_title{
+	width: 100%;
+	margin-top: 10px;
+}
+.ruleseditview_container .creatrule_container .new_rule_title{
+    cursor: default;
+}
+.ruleseditview_container .editrule_container .rule_desc .icon-inactive_alert,
+.ruleseditview_container .rule_desc .icon-inactive_alert{
+	width: 10%;
+	display: table-cell;
+    vertical-align: middle;
+    float:none;
+}
+.ruleseditview_container .item_header .rule_desc .rule_left{
+	float:none;
+	display: table-cell;
+    vertical-align: middle;
+}
+.ruleseditview_container .content_list .rule_function{
+	float:none;
+    display: table-cell;
+    vertical-align: middle;
+}
+.ruleseditview_container .editrule_container .item_header .rule_desc{
+    display: table;
+}
+.ruleseditview_container .rule_desc .rule_action-special{
+    font-size: 30px;
+    color:#E7E6E4;
+    cursor: default;
+    position: relative;
+    float:left;
+}
+.ruleseditview_container .errorMessage{
+	margin-bottom: 15px;
+}
+.ruleseditview_container .dijitValidationTextBoxError .dijitValidationContainer{
+	display:none;
+}
+.ruleseditview_container .redborder .dijitInputContainer{
+	border-color: #F04E37;
+}
+.ruleseditview_container .redborder{
+    color: #F04E37;
+}
+.ruleseditview_container .common_container .channels .second_item{
+    margin-left: 10px;
+}
+.ruleseditview_container .linkedalerts_container .ruleSelect ul{
+    height: 200px;
+}
+.ruleseditview_container .creatrule_container .ruleTypeSelect ul{
+	overflow: auto;
+	max-height: 60vh;
+}

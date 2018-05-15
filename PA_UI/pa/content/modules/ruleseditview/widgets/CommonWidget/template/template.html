@@ -1,0 +1,34 @@
+<div class="common_container" >
+    <div class="channels_block">
+      <div style="border-bottom:1px dashed #808080;width: 281px;" data-dojo-attach-point="dashedLine"></div>
+      <div style="margin-top: 15px;">
+          <span class="item_title">Also send alerts by: 
+          <form data-dojo-attach-point="channels" class="channels">
+                <span class="channels_item"><input type="checkbox" name="deliveryChannel" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="EMAIL" value="EMAIL"/>&nbsp;Email</span>
+                <span class="channels_item second_item"><input type="checkbox" name="deliveryChannel" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="SAMETIME" value="SAMETIME" style="margin-left:10px"/>&nbsp;Sametime</span>
+                <!--<div class="channels_item"><input type="checkbox" name="deliveryChannel" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="SMS" value="SMS"/>&nbsp;SMS (text message)</div>
+                <div class="channels_item"><input type="checkbox" name="deliveryChannel" data-dojo-type="dijit/form/CheckBox" data-dojo-attach-point="ISDE" value="ISDE"/>&nbsp;DRME</div> -->
+           </form>
+          </span>
+      </div>
+      <div class="group_email_alerts hidden" data-dojo-attach-point="groupEmail" style="margin-bottom:10px">
+          <span isa_tipid="pa-3469c3d05f60"></span>
+              <input type="checkbox" isa_tipid="pa-3469c3d05f60" data-dojo-attach-point="GROUP" data-dojo-type="dijit/form/CheckBox" value="GROUPEMAIL"/>&nbsp;Add this alert to my grouped email alerts
+      </div>
+    </div>
+    <!--
+    <div class="oneblock">
+        <div class="item_one_row">
+            <span>Priority:&nbsp;</span>
+            <div data-dojo-attach-point="priority" class="priority" data-dojo-type="pa/widgets/CustomSelector/CustomSelector" data-dojo-props="data:{defaultItem:{'label': 'Normal','value': 'NORMAL'},listItems:[{'label': 'Normal','value': 'NORMAL'},{'label': 'High','value': 'HIGH'}]}">
+            </div>
+            <span class="icon-information-idle" data-dojo-attach-point="rulePriorityHelp"></span>
+        </div>
+    </div>
+    -->
+    <div class="oneblock">
+        <div class="item_one_row" style="padding:10px 0px;">
+            <input type="text" name="rulename" data-dojo-type="dijit/form/TextBox" data-dojo-attach-point="rule_Name" class="ruleName" placeholder="Rename this alert rule (optional)">
+        </div>
+    </div>
+</div>

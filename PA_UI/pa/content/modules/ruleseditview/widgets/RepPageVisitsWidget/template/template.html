@@ -1,0 +1,18 @@
+<div class="reppagevisits_container">
+	<div class="oneblock">
+		<span class="item_title">Alert me when a visitor views my page&nbsp;&nbsp;</span>
+		<div class="item_multiple_row">
+			<div data-dojo-attach-point="operatorForVisit" class="operatorExactly" data-dojo-type="pa/widgets/CustomSelector/CustomSelector" data-dojo-props="data:{defaultItem:{'label': 'exactly','value': 'IS_EQUAL'},listItems:[{'label': 'exactly','value': 'IS_EQUAL'},{'label': 'more than','value': 'IS_GREATER_THAN'},{'label': 'less than','value': 'IS_LESS_THAN'}]}"></div>
+			&nbsp;
+			<input class="margin_right_45 visitsTimes" data-dojo-attach-point="visitsTimes" type="text" promptMessage="Number of visits, e.g. '10'"
+				onmouseover="dijit.Tooltip.defaultPosition=['above']" required="true" constraints="{min:0,max:99}" dojoType="dijit/form/NumberTextBox"
+				invalidMessage="Number of visits, e.g. '10'"/>
+			<span>&nbsp;times in&nbsp;</span>
+			&nbsp;<input class="s_textBox PeriodText" data-dojo-attach-point="PeriodText" type="text"
+				onmouseover="dijit.Tooltip.defaultPosition=['above']" required="true" dojoType="dijit/form/NumberTextBox"/>
+			<div data-dojo-attach-point="periodSelect" class="periodSelect" data-dojo-type="pa/widgets/CustomSelector/CustomSelector" data-dojo-props="data:{defaultItem:{'label': 'day(s)','value': 'DAY'},listItems:[{'label': 'day(s)','value': 'DAY'},{'label': 'week(s)','value': 'WEEK'},{'label': 'month(s)','value': 'MONTH'}]}"></div>
+			<span class="icon-information-idle" data-dojo-attach-point="ppvHelp"></span>
+		    <span class="showDaysPrompt" >(Minimum 2 days)</span>
+		</div>
+	</div>
+</div>

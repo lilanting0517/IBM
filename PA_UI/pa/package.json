@@ -1,0 +1,9 @@
+{
+    "name": "pa",
+    "description": "pa",
+    "version": "1.0",
+    "keywords": ["pa"],
+    "maintainers": [{"name": "Nick li"}],
+    "contributors": [{"name": "Nick li"}],
+    "dojoBuild": "pa.profile.js"
+}
